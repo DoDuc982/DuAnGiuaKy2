@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logo {
+    margin-top: 40px;
+}
+
+#main {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url("D:/Web/Dự án giữa kỳ/assets/img/7044723.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p1 {
+    position: fixed;
+    height: 200px;
+    width: auto;
+    top: 550px;
+    rotate: 60deg;
+}
+
+#p2 {
+    position: fixed;
+    height: 7vw;
+    width: auto;
+    top: 630px;
+    left: 90%;
+    rotate: 180deg;
+}
+
+#p3 {
+    position: fixed;
+    height: 15vw;
+    width: auto;
+    left: 40%;
+}
+
+#p4 {
+    position: fixed;
+    height: 100px;
+    width: auto;
+    top: 17%;
+    left: 3%;
+    rotate: 80deg;
+}
+
+#container_picture {
+    width: 350%;
+    height: 100%;
+}
+
+#container {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    align-self: center;
+    justify-content: center;
+}
+
+.container_content {
+    color: #007c61;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+
+#container_content_1 {
+    margin: 5px;
+    color: #007c61;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+    width: 60%;
+}
+
+#container_picture {
+    width: 50%;
+    height: 100%;
+}
+
+#icon_nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#container_icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#container_icons a {
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid #007c61;
+    align-items: center;
+    color: #007c61;
+}
+
+#container_content_2 {
+    color: #007c61;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+    width: max-content;
+}
+
+#container_picture {
+    display: flex;
+    flex-direction: column;
+}
+
+#picture {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frame {
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    margin-right: 100px;
+}
+
+#pic_content {
+    height: 20%;
+    width: 60%;
+    align-self: center;
+    text-align: center;
+    color: #007c61;
+    font-weight: bolder;
+}
+
+#frame img {
+    margin-top: 80px;
+    width: 100%;
+    border: 35px solid transparent;
+    border-image: url('D:/Web/Dự án giữa kỳ/assets/img/5.png') 30 stretch;
+}
+
+@media screen and (max-width: 600px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #p1,
+    #p2,
+    #p3,
+    #p4 {
+        display: none;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    .container_content {
+        font-size: 60px;
+    }
+
+    #container_picture {
+        width: 100%
+    }
+
+    #logo a img {
+        width: auto;
+        height: 80px;
+    }
+
+    #pic_content {
+        display: none;
+    }
+
+    #container_content_1,
+    #container_content_2 {
+        font-size: medium;
+        margin: 20px 0px;
+    }
+
+    #frame img {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    #container_text {
+
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #container_text {
+
+        padding: 40px;
+    }
+
+    #p1,
+    #p2,
+    #p3,
+    #p4 {
+        display: none;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    #container_picture {
+        width: 100%
+    }
+
+    #logo a img {
+        width: auto;
+        height: 80px;
+    }
+
+    #pic_content {
+        margin-top: 200px;
+    }
+
+    #container_content_1,
+    #container_content_2 {
+        font-size: medium;
+        margin: 20px 0px;
+    }
+
+    #frame img {
+        margin: 0;
+        margin-left: 20px;
+    }
+}
